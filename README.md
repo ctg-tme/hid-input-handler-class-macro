@@ -1,7 +1,11 @@
-# hid-input-handler-class
+# HID Input Handler Class
  A Class Object to handle HID input presses coming into a Cisco Video Device.
 
- This was written for the Macro Editor, but can be adapted for the JsXAPI Node Module
+ Some HID Devices like Keyboards and Mice may not need to leverage this, as they provide a simple output, but many other HID Devices like **Presentation Clickers** can spam an array of automated key presses, which may be difficult to handle in a Macro.
+
+ The ```HIDInputHandler``` Class object provided in this Macro helpes debounce those messages, so you can have a clean output trigger for your project.
+
+ This was written for the Macro Editor, but can be adapted for the JsXAPI Node Module.
 
  NOTE: This is NOT a full Macro Solution, it's a piece of code to help developers build a solution
 
