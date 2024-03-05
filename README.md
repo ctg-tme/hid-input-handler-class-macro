@@ -12,7 +12,7 @@
  NOTE: This is NOT a full Macro Solution, it's a piece of code to help developers build a solution
 
  ## Features
- - Auto-Configures coded for HID Device Use
+ - Auto-Configures codec for HID Device Use
  - Handles multi-output HID sequences
  - Enables simple setup for HID devices for use within your script
  - Use Discovery Mode to easily discover HID sequences, and add them to your project
@@ -26,7 +26,7 @@
 
 ## Device Compatibility
 
-Any Cisco Video Conferencing Coded that supports the following xAPI
+Any Cisco Video Conferencing Codec that supports the following xAPI
 
 - [xConfiguration Peripherals InputDevice Mode](https://roomos.cisco.com/xapi/Configuration.Peripherals.InputDevice.Mode/)
 - [xEvent UserInterface InputDevice Key Action](https://roomos.cisco.com/xapi/Event.UserInterface.InputDevice.Key.Action/)
